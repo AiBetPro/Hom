@@ -13,4 +13,3 @@ const BettingApp: React.FC<BettingAppProps> = ({ title = 'Betting App' }) => {
   );
 };
 
-export default BettingApp;
