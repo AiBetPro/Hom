@@ -14,8 +14,12 @@
     "noFallthroughCasesInSwitch": true,
     "resolveJsonModule": true,
     "moduleResolution": "bundler",
-    "allowImportingTsExtensions": true
+    "allowImportingTsExtensions": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./*"]
+    }
   },
-  "include": ["src", "pages", "app"],
+  "include": ["src", "pages", "app", "components", "lib"],
   "exclude": ["node_modules"]
 }
